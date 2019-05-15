@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  width: 800px;
+  height: 220px;
+  grid-template: repeat(3, 100px) / repeat(4, 180px);
+  grid-gap: 10px 10px;
+
+}
+
+
+.box {
+  background-color: #F5F5F5;
+  color: black;
+  border-radius: 10px;
+  border: 2px black solid;
+  grid-border-gap: 4px;
+}
